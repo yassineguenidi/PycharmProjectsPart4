@@ -1,0 +1,238 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "How are you",
+        "Is anyone there?",
+        "Hello",
+        "Good day"
+      ],
+      "responses": [
+        "Hey :-)",
+        "Hello, thanks for visiting",
+        "Hi there, what can I do for you?",
+        "Hi there, how can I help?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye",
+         "See you later",
+         "Goodbye"
+        ],
+      "responses": [
+        "See you later, thanks for visiting",
+        "Have a nice day",
+        "Bye! Come back again soon."
+      ]
+    },
+        {
+      "tag": "ok",
+      "patterns": ["ok",
+         "okay",
+         "yes",
+        "great",
+        "nice I understand"
+        ],
+      "responses": [
+        "Great! do you have another question ?",
+        "Welcome",
+        "Next! "
+      ]
+    },
+
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+      "responses": ["Happy to help!", "Any time!", "My pleasure"]
+    },
+    {
+      "tag": "items",
+      "patterns": [
+        "Which items do you have?",
+        "What kinds of items are there?",
+        "What do you sell?"
+      ],
+      "responses": [
+        "We sell coffee and tea",
+        "We have coffee and tea"
+      ]
+    },
+    {
+      "tag": "payments",
+      "patterns": [
+        "Do you take credit cards?",
+        "Do you accept Mastercard?",
+        "Can I pay with Paypal?",
+        "Are you cash only?"
+      ],
+      "responses": [
+        "We accept VISA, Mastercard and Paypal",
+        "We accept most major credit cards, and Paypal"
+      ]
+    },
+    {
+      "tag": "delivery",
+      "patterns": [
+        "How long does delivery take?",
+        "How long does shipping take?",
+        "When do I get my delivery?"
+      ],
+      "responses": [
+        "Delivery takes 2-4 days",
+        "Shipping takes 2-4 days"
+      ]
+    },
+    {
+      "tag": "funny",
+      "patterns": [
+        "Tell me a joke!",
+        "Tell me something funny!",
+        "Do you know a joke?"
+      ],
+      "responses": [
+        "Why did the hipster burn his mouth? He drank the coffee before it was cool.",
+        "What did the buffalo say when his son left for college? Bison."
+      ]
+    },
+    {
+      "tag": "customer_support",
+      "patterns": [
+        "I have a problem with my order",
+        "Can you help me with a product issue?",
+        "I need customer support"
+      ],
+      "responses": [
+        "Of course! What's the problem you're experiencing?",
+        "Sorry to hear that. Can you provide more details about the issue?",
+        "I'd be happy to help with any issues you're experiencing with our products."
+      ]
+    },
+    {
+      "tag": "product_information",
+      "patterns": [
+        "What are the product specifications?",
+        "Can you provide more details about the product?",
+        "I'd like to learn more about the product"
+      ],
+      "responses": [
+        "Certainly! Which product are you interested in?",
+        "We have a wide range of products, can you specify which one you'd like more information on?",
+        "Our products have a variety of specifications, can you let me know which one you'd like to know more about?"
+      ]
+    },
+    {
+      "tag": "menu",
+      "patterns": [
+        "What's on the menu?",
+        "What are my options?",
+        "Can you tell me what you offer?"
+      ],
+      "responses": [
+        "We offer a variety of coffee and tea options, as well as pastries and sandwiches. Would you like me to provide more information?"
+      ]
+    },
+    {
+      "tag": "specials",
+      "patterns": [
+        "Are there any specials?",
+        "Do you have any deals?",
+        "Are there any discounts?"
+      ],
+      "responses": [
+        "We currently have a buy one, get one free deal on all pastries until the end of the month. Would you like to take advantage of this offer?"
+      ]
+    },
+    {
+      "tag": "location",
+      "patterns": [
+        "Where are you located?",
+        "What's your address?",
+        "Can you give me directions?"
+      ],
+      "responses": [
+        "We are located at Ons City, 11 km far from the city. Would you like me to provide more detailed directions?"
+      ]
+    },
+    {
+      "tag": "hours",
+      "patterns": [
+        "What are your hours?",
+        "When are you open?",
+        "Can you tell me your schedule?"
+      ],
+      "responses": [
+        "We are open from 7am to 7pm Monday through Friday, and from 8am to 5pm on weekends. Would you like me to provide any other information?"
+      ]
+    },
+    {
+      "tag": "wifi",
+      "patterns": [
+        "Do you have wifi?",
+        "Is there wifi?",
+        "Can I get wifi here?"
+      ],
+      "responses": [
+        "Yes, we offer free wifi to all of our customers. Would you like the password?"
+      ]
+    },
+    {
+      "tag": "recommendation",
+      "patterns": [
+        "What do you recommend?",
+        "What's your favorite?",
+        "Can you suggest something?"
+      ],
+      "responses": [
+        "Our most popular coffee is the latte, but if you're looking for something with a little more kick, we recommend the espresso. For tea, we suggest trying our Earl Grey blend. Would you like to try any of these?"
+      ]
+    },
+    {
+      "tag": "complaint",
+      "patterns": [
+        "I have a complaint",
+        "I'm not satisfied",
+        "This isn't what I ordered"
+      ],
+      "responses": [
+        "I'm sorry to hear that. Can you please tell me more about the issue so we can address it and make it right?"
+      ]
+    },
+    {
+      "tag": "loyalty_program",
+      "patterns": [
+        "Do you have a loyalty program?",
+        "How do I join your rewards program?",
+        "What are the benefits of your loyalty program?"
+      ],
+      "responses": [
+        "Yes, we do have a loyalty program. You can sign up for it by providing your email address at the register. The benefits include discounts on future purchases, free drinks on your birthday, and more. Would you like to sign up now?"
+      ]
+    },
+    {
+      "tag": "nutrition_info",
+      "patterns": [
+        "What are the nutrition facts?",
+        "Do you have nutritional information?",
+        "How many calories are in this?"
+      ],
+      "responses": [
+        "We do have nutritional information available. You can find it on our website or by asking a barista. Would you like me to look it up for you now?"
+      ]
+    },
+    {
+      "tag": "events",
+      "patterns": [
+        "Do you have any events?",
+        "What's happening this week?",
+        "Are there any special occasions?"
+      ],
+      "responses": [
+        "Yes, we have events happening throughout the month. You can find more information on our website or by following us on social media. Would you like me to provide more information?"
+      ]
+    }
+  ]
+}

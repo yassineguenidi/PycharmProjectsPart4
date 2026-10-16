@@ -1,0 +1,4 @@
+Type,RIB,nom,date,lieu,nationnalite,adresse,code_postal,cin,delivre,etat_civile,profession,employeur,revenu,retenu,nom_conjoint,date_naiss_conj,lieu_conj,nationnalite_conj,adresseConj,cinConj,delivreConj,profession_conj,employeur_conj,revenu_conj,retenu_conj,montant_devis,montant_credit,duree
+CREDEX,321455687,mourad,10/09/1987,sousse,tunisien,mourad@gmai.com,3254,2314587,01/06/2007,Celibataire,professeur,Ministre d\'education,4500,2200,,,,,,,,,,,,50000,45000,20
+CREDEX,123458456,amin,12/12/2000,monastir,tunisien,amin@gmail.com,5000,6598989,12/12/2020,Celibataire,etudiant,autre,3500,2500,,,,,,,,,,,,20000,10000,36
+TAHSSIN,215488099,yassine,01/04/1999,remada,tunisien,yassine@gmail.com,3240,6598099,12/12/2022,Marie(e),etudiant,autre,4500,25000,ibtissem,31/10/1999,tunis,tunisienne,fouchena,14578475,12/10/2021,etudiante,autre,3200,11200,15000,10000,20

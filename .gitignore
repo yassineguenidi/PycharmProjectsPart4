@@ -1,0 +1,29 @@
+# Environnements virtuels Python
+**/venv/
+**/.venv/
+**/env/
+
+# Fichiers Python générés
+**/__pycache__/
+*.py[cod]
+
+# Configuration locale et secrets
+**/.env
+**/.env.*
+!**/.env.example
+
+# Dossiers de build
+**/dist/
+**/build/
+
+# Cache des outils
+**/.pytest_cache/
+**/.mypy_cache/
+**/.ruff_cache/
+
+# Dépendances Node.js
+**/node_modules/
+
+# Fichiers système
+.DS_Store
+Thumbs.db
